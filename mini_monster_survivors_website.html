@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Monster Survivors - Epic Survival Action Game | Play Online Free</title>
+    <meta name="description" content="Play Mini Monster Survivors online! An epic survival action game where you battle waves of monsters, collect power-ups, and survive as long as possible. Free to play instantly in your browser.">
+    <meta name="keywords" content="Mini Monster Survivors, online game, survival game, monster game, browser game, free game">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://minimonstersurvivors.xyz/">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Mini Monster Survivors - Epic Survival Action Game">
+    <meta property="og:description" content="Battle waves of monsters and survive as long as possible in this epic online survival game.">
+    <meta property="og:url" content="https://minimonstersurvivors.xyz/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mini Monster Survivors - Epic Survival Action Game">
+    <meta name="twitter:description" content="Battle waves of monsters and survive as long as possible in this epic online survival game.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apple-inspired color palette and custom styles */
+        :root {
+            --apple-blue: #007AFF;
+            --apple-gray: #8E8E93;
+            --apple-light-gray: #F2F2F7;
+            --apple-dark: #1C1C1E;
+            --apple-green: #34C759;
+            --apple-purple: #AF52DE;
+            --apple-orange: #FF9500;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .game-iframe {
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .game-iframe:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, var(--apple-blue), var(--apple-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        /* Responsive iframe */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        }
+        
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        @media (max-width: 768px) {
+            .iframe-container {
+                padding-bottom: 75%; /* More square aspect ratio for mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="container mx-auto px-4 py-8">
+        <div class="text-center">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-4 gradient-text">
+                Mini Monster Survivors
+            </h1>
+            <p class="text-xl md:text-2xl text-white/90 font-light max-w-2xl mx-auto">
+                Battle endless waves of monsters in this epic survival adventure game
+            </p>
+        </div>
+    </header>
+
+    <!-- Game Section -->
+    <main class="container mx-auto px-4 py-8">
+        <section class="glass-effect rounded-3xl p-6 md:p-8 mb-12">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    🎮 Play Now - Free Online Game
+                </h2>
+                <p class="text-white/80 text-lg">
+                    No downloads required! Start playing instantly in your browser.
+                </p>
+            </div>
+            
+            <div class="iframe-container game-iframe mx-auto max-w-4xl">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                    frameborder="0"
+                    allowfullscreen
+                    loading="lazy"
+                    title="Mini Monster Survivors Game"
+                    class="rounded-2xl">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Game Description Section -->
+        <section class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="feature-card p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                    ⚔️ Epic Survival Combat
+                </h2>
+                <p class="text-gray-700 text-lg leading-relaxed mb-4">
+                    Mini Monster Survivors is an intense survival action game where you face endless waves of monsters. Armed with various weapons and power-ups, your mission is to survive as long as possible while battling increasingly challenging enemies.
+                </p>
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    Each wave brings new challenges and stronger monsters. Collect coins, upgrade your weapons, and unlock special abilities to enhance your survival chances in this thrilling monster-fighting adventure.
+                </p>
+            </div>
+            
+            <div class="feature-card p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                    🎯 Game Features
+                </h2>
+                <ul class="text-gray-700 text-lg space-y-3">
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-3">✓</span>
+                        Endless waves of challenging monsters
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-green-500 mr-3">✓</span>
+                        Multiple weapon types and upgrades
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-purple-500 mr-3">✓</span>
+                        Power-ups and special abilities
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-orange-500 mr-3">✓</span>
+                        Progressive difficulty system
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-red-500 mr-3">✓</span>
+                        Coin collection and upgrade system
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- How to Play Section -->
+        <section class="feature-card p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+                🎮 How to Play Mini Monster Survivors
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🎯</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Aim & Shoot</h3>
+                    <p class="text-gray-600">Use your mouse or touch controls to aim and shoot at incoming monsters.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">💰</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Collect Coins</h3>
+                    <p class="text-gray-600">Gather coins dropped by defeated monsters to purchase upgrades.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">⚡</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Survive Waves</h3>
+                    <p class="text-gray-600">Endure increasingly difficult waves and achieve high scores.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Tips Section -->
+        <section class="feature-card p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                💡 Pro Tips for Mini Monster Survivors
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Strategic Movement</h3>
+                    <p class="text-gray-700 mb-4">Keep moving to avoid monster attacks. Standing still makes you an easy target for the monster hordes.</p>
+                    
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Weapon Upgrades</h3>
+                    <p class="text-gray-700">Prioritize weapon upgrades early in the game. Better weapons mean faster monster elimination and higher survival rates.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Power-up Management</h3>
+                    <p class="text-gray-700 mb-4">Save powerful abilities for critical moments when you're overwhelmed by monsters.</p>
+                    
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Coin Strategy</h3>
+                    <p class="text-gray-700">Balance between collecting coins and staying safe. Don't risk your life for a few extra coins.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="feature-card p-8">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                ❓ Frequently Asked Questions
+            </h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Is Mini Monster Survivors free to play?</h3>
+                    <p class="text-gray-700">Yes! Mini Monster Survivors is completely free to play online. No downloads or registrations required.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Can I play on mobile devices?</h3>
+                    <p class="text-gray-700">Absolutely! The game is fully optimized for both desktop and mobile devices, providing smooth gameplay across all platforms.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">How do I save my progress?</h3>
+                    <p class="text-gray-700">Your progress and high scores are automatically saved in your browser, so you can continue your survival adventure anytime.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">What makes this survival game unique?</h3>
+                    <p class="text-gray-700">Mini Monster Survivors combines fast-paced action with strategic upgrade systems, creating an addictive survival experience with endless replayability.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-8 text-center">
+        <div class="glass-effect rounded-2xl p-6">
+            <p class="text-white/80 text-lg mb-4">
+                Ready to test your survival skills? Start playing Mini Monster Survivors now!
+            </p>
+            <p class="text-white/60">
+                © 2025 Mini Monster Survivors. Play free online survival games.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Add smooth scrolling and interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loading animation for iframe
+            const iframe = document.querySelector('iframe');
+            const container = document.querySelector('.iframe-container');
+            
+            iframe.addEventListener('load', function() {
+                container.classList.add('loaded');
+            });
+            
+            // Add scroll animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all feature cards
+            document.querySelectorAll('.feature-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>
